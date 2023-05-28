@@ -182,12 +182,24 @@ namespace Program
         /// <param name="item">El item al que se agregarán objectos</param>
         protected virtual void AddObjectsToItem(IItem item)
         {
-            /*
-                Si un item se compone de otros (como un Guante de Poder),
-                puedes agregar aquí el código necesario para interactuar
-                con el usuario.
-            */
+            if (item is Gauntlet gauntlet)
+            {
+                int cantidadGemas = 5; 
+
+                for (int i = 0; i < cantidadGemas; i++)
+                {
+                    Gem gema = new Gem();
+                    gauntlet.AddGem(gema);
+                }
+
+                Console.WriteLine("Se han agregado las gemas al Guante de Poder.");
+            }
+            else
+            {
+                Console.WriteLine("El item no es un Guante de Poder y no se pueden agregar gemas.");
+            }
         }
+
 
         /// <summary>
         /// Lee un tipo de item por la terminal. Retorna 0 si ningún tipo
