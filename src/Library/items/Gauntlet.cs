@@ -5,7 +5,7 @@ using System;
 public class Gauntlet : IAttackItem
 {
     public List<Gem> gemas = new List<Gem>();
-   public void AddGem(Gem gem)
+    public void AddGem(Gem gem)
     {
         if (gemas.Count >= 5)
         {
