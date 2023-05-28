@@ -1,3 +1,4 @@
+
 namespace RoleplayGame.Items
 {
     /// <summary>
