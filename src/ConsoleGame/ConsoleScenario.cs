@@ -104,6 +104,8 @@ namespace Program
         protected virtual void BuildCharacters()
         {
             CharacterType type = this.ReadCharacterType();
+
+            // Aca hay que poner 
             while (type != default(CharacterType))
             {
                 string name = this.ReadCharacterName();
