@@ -186,7 +186,15 @@ namespace Program
         {
             if (item is Gauntlet gauntlet)
             {
-                int cantidadGemas = 5; 
+                Console.WriteLine("How many Gems do you want to add?");
+                int cantidadGemas = Convert.ToInt32(Console.ReadLine());
+
+                // Verificar si la cantidad ingresada supera el límite máximo
+                if (cantidadGemas > 5)
+                {
+                    Console.WriteLine("Cant add 5 or more Gems");
+                    cantidadGemas = 5;
+                }
 
                 for (int i = 0; i < cantidadGemas; i++)
                 {
@@ -194,10 +202,14 @@ namespace Program
                     gauntlet.AddGem(gema);
                 }
 
-                Console.WriteLine("Se han agregado las gemas al Guante de Poder.");
+                Console.WriteLine("Have been successfully added to the Gauntlet");
             }
-            
+            else
+            {
+                Console.WriteLine("El item no es un Guante de Poder y no se pueden agregar gemas.");
+            }
         }
+
 
 
         /// <summary>
