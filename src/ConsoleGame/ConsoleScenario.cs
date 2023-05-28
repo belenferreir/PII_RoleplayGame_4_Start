@@ -196,10 +196,7 @@ namespace Program
 
                 Console.WriteLine("Se han agregado las gemas al Guante de Poder.");
             }
-            else
-            {
-                Console.WriteLine("El item no es un Guante de Poder y no se pueden agregar gemas.");
-            }
+            
         }
 
 

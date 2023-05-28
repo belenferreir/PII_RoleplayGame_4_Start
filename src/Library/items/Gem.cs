@@ -1,6 +1,6 @@
 namespace RoleplayGame.Items;
 
-public class Gem
+public class Gem: IAttackItem
 {
     public int AttackPower
     {
