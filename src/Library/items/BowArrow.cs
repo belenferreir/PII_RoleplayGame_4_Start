@@ -1,10 +1,22 @@
 namespace RoleplayGame.Items
 {
-    public class BowArrow 
+    public class BowArrow : IAttackItem
     {
-        public int Attack(Bow bow, Arrow arrow) 
+        public int Damage = 0;
+        public void GetDamage(Bow bow, Arrow arrow) 
         {
-            return (bow.AttackPower + arrow.AttackPower);
+            this.Damage = bow.AttackPower + arrow.AttackPower;
+        }
+        public int AttackPower
+        {
+            get
+            {
+                return (Damage);
+            }
+        }
+        public override string ToString()
+        {
+            return "BowAndArrow";
         }
     }
 }
