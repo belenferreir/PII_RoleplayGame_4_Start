@@ -13,7 +13,7 @@ namespace RoleplayGame.Characters
         {
             this.Health = 130;
             this.AddItem(new Stick());
-            this.AddItem(new breastplate());
+            this.AddItem(new BreastPlate());
         }
     }
 }
