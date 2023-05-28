@@ -1,7 +1,7 @@
 
 namespace RoleplayGame.Items
 {
-    public class Arrow : IAttackItem
+    public class Arrow
     {
         public int AttackPower
         {
