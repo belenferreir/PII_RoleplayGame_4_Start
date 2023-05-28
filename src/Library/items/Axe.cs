@@ -6,7 +6,7 @@ public class Axe : IAttackItem
         {
             get
             {
-                return 3;
+                return 30;
             }
         }
 
