@@ -10,11 +10,11 @@ namespace RoleplayGame.Items
                 return 20;
             }
         }
-        
+
 
         public override string ToString()
         {
-            return "Bow";
+            return "Sword";
         }
     }
 }
