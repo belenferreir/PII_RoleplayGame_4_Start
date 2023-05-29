@@ -204,10 +204,7 @@ namespace Program
 
                 Console.WriteLine("Have been successfully added to the Gauntlet");
             }
-            else
-            {
-                Console.WriteLine("El item no es un Guante de Poder y no se pueden agregar gemas.");
-            }
+            
         }
 
 
