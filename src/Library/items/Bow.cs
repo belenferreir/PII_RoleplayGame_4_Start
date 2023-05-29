@@ -1,6 +1,6 @@
 namespace RoleplayGame.Items
 {
-    public class Bow : IAttackItem
+    public class Bow
     {
         public int AttackPower
         {
