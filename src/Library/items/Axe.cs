@@ -1,6 +1,6 @@
-namespace RoleplayGame.Items;
-
-public class Axe : IAttackItem
+namespace RoleplayGame.Items
+{
+    public class Axe : IAttackItem
     {
         public int AttackPower
         {
@@ -16,3 +16,5 @@ public class Axe : IAttackItem
             return "Axe";
         }
     }
+
+}

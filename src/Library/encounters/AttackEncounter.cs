@@ -44,6 +44,18 @@ namespace RoleplayGame.Encounters
             }
         }
 
+        public Character DecideWinner()
+        {
+            if (this.Character1.IsDead || this.Character1 == null)
+            {
+                return this.Character2;
+            }
+            else
+            {
+                return this.Character1;
+            }
+        }
+
         /// <summary>
         /// Retorna verdadero si ambos personajes están vivos.
         /// </summary>
