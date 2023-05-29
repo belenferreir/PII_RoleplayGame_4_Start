@@ -162,6 +162,7 @@ namespace Program
 
             Console.WriteLine("Let's add items to your character");
 
+            // Aca deberia de preguntar por el presonaje seleccionado y "type" deneria de agarrar los itmes de ese personaje
             ItemType type = this.ReadItemType();
             Console.WriteLine(type);
             while (type != default(ItemType))
