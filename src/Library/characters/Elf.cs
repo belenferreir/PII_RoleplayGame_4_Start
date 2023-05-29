@@ -11,9 +11,9 @@ namespace RoleplayGame.Characters
         public Elf(string name)
             : base(name)
         {
-            this.Health = 120;
-            this.AddItem(new Robes());
-            this.AddItem(new BrokenBottle());
+            this.Health = 100;
+            //this.AddItem(new Robes());
+            //this.AddItem(new BrokenBottle());
         }
     }
 }

@@ -11,9 +11,9 @@ namespace RoleplayGame.Characters
         public Dwarf(string name)
             : base(name)
         {
-            this.Health = 100;
-            this.AddItem(new BowArrow());
-            this.AddItem(new Layer());
+            this.Health = 80;
+            //this.AddItem(new BowArrow());
+            //this.AddItem(new Layer());
         }
     }
 }

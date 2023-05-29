@@ -110,7 +110,7 @@ namespace RoleplayGame.Items
             }
         }
 
-        public static IItem GetRandomItem(List<IItem> items)
+         public static IItem GetRandomItem(List<IItem> items)
         {
             if (items.Count >= 1)
             {

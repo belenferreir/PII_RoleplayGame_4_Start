@@ -12,8 +12,8 @@ namespace RoleplayGame.Characters
             : base(name)
         {
             this.Health = 100;
-            this.AddItem(new Broadsword());
-            this.AddItem(new BrokenBottle());
+            //this.AddItem(new Broadsword());
+            //this.AddItem(new BrokenBottle());
         }
     }
 }

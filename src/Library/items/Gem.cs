@@ -1,3 +1,6 @@
+using System;
+using System.Collections.Generic;
+
 namespace RoleplayGame.Items;
 
 public class Gem: IAttackItem
@@ -6,7 +9,7 @@ public class Gem: IAttackItem
     {
         get
         {
-            return 10;
+            return 15;
         }
     }
 
@@ -16,4 +19,7 @@ public class Gem: IAttackItem
         return "Gem";
     }
 }
- 
+
+
+
+
